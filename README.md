@@ -6,7 +6,7 @@ SwiftHN
 
 ![screen-1](https://raw.githubusercontent.com/Dimillian/SwiftHN/master/git_images/images.png)
 
-SwiftHN is now available on the [App Store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=919243741&mt=8)! I've renamed it to HN Reader for obvious reason. 
+SwiftHN is now available on the [App Store](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=919243741&mt=8)! I've renamed it to HN Reader for obvious reasons. 
 
 ##### ETA
 =======
@@ -16,7 +16,7 @@ Clone this repository.
 $ git clone --recursive https://github.com/Dimillian/SwiftHN
 ```
 
-Incase you cloned the repository without the `recursive` option, you will have
+In case you cloned the repository without the `recursive` option, you will have
 to manually install the HackerSwifter submodule.
 ```shell
 $ cd SwiftHN
@@ -31,7 +31,7 @@ $ open SwiftHN.xcodeproj
 
 # Features
 
-* Now link with its own Hacker News Swift scrapping library, [HackerSwifter](https://github.com/Dimillian/HackerSwifter). This is still a work in progress but it support the most basic features. This is linked as a submodule, so be sure to clone it too (I'm looking at you Github for Mac)
+* Now link with its own Hacker News Swift scrapping library, [HackerSwifter](https://github.com/Dimillian/HackerSwifter). This is still a work in progress but it supports the most basic features. This is linked as a submodule, so be sure to clone it too (I'm looking at you Github for Mac)
 * The podfile is now useless, you may still run pod install to setup the project.
 * A basic UI which respect latest Apple guidelines
 * Use Swift features such as extension, framework, etc...
@@ -45,7 +45,7 @@ $ open SwiftHN.xcodeproj
 * Clean design pattern
 * More...
 
-The app is in progress, but already functional, you can read the newsfeed, send article to the Safari Reading List, view the article in a webview, and load comments. 
+The app is in progress, but is already functional, you can read the newsfeed, send articles to the Safari Reading List, view the article in a webview, and load comments. 
 
 You can contribute to the app, just do a pull request. You can even contribute to the design in Sketch if you want!
 
